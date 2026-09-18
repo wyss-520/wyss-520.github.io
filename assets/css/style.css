@@ -482,32 +482,39 @@ img {
   font-size: 1.07rem;
 }
 
-.honors-panel > p:not(.panel-label),
 .teaching-empty .empty-copy > p:last-child {
   margin: 8px 0 0;
   color: var(--muted);
   font-size: 0.82rem;
 }
 
-.honors-placeholder {
-  display: grid;
-  gap: 10px;
-  margin-top: 24px;
+.honors-list {
+  padding: 0;
+  margin: 21px 0 0;
+  border-top: 1px solid var(--line);
+  list-style: none;
+  counter-reset: honors;
 }
 
-.honors-placeholder span {
-  display: block;
-  height: 8px;
-  background: #e5e8ed;
-  border-radius: 3px;
+.honors-list li {
+  position: relative;
+  padding: 11px 0 11px 31px;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--line);
+  font-size: 0.79rem;
+  line-height: 1.55;
+  counter-increment: honors;
 }
 
-.honors-placeholder span:nth-child(2) {
-  width: 83%;
-}
-
-.honors-placeholder span:nth-child(3) {
-  width: 61%;
+.honors-list li::before {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  color: var(--blue);
+  font-family: Georgia, serif;
+  font-size: 0.61rem;
+  font-weight: 700;
+  content: counter(honors, decimal-leading-zero);
 }
 
 .teaching-section {
