@@ -1,6 +1,6 @@
-# wyss-520.github.io
+# 徐杰的个人主页
 
-Static academic homepage for `https://wyss-520.github.io/`.
+面向中文教培与个人展示的静态网站，发布于 `https://wyss-520.github.io/`。
 
 ## Preview locally
 
@@ -10,19 +10,17 @@ python3 -m http.server 8000
 
 Then open `http://localhost:8000`.
 
-## Customize
+## 修改内容
 
-Most content is in `index.html`. Replace the visible placeholder text for:
+主要内容位于 `index.html`，后续可继续补充：
 
-- name, position, institution, location, email, Scholar, and CV;
-- biography and research interests;
-- news;
-- publications and paper links;
-- experience, education, awards, and service.
+- 个人介绍与教培经历；
+- 授课科目、目标学员和课程形式；
+- 课程案例、学员反馈与内容动态；
+- 邮箱、微信或其他公开联系方式。
 
-Put paper thumbnails and other images in `assets/images/`. Styling is in
-`assets/css/style.css`; the small mobile-navigation script is in
-`assets/js/main.js`.
+图片放在 `assets/images/`。样式位于 `assets/css/style.css`，移动端导航脚本位于
+`assets/js/main.js`。
 
 ## Publish
 
