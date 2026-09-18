@@ -22,6 +22,8 @@ Then open `http://localhost:8000`.
 图片放在 `assets/images/`。样式位于 `assets/css/style.css`，移动端导航脚本位于
 `assets/js/main.js`。
 
+`assets/images/fudan-university-logo.png` 来自[复旦大学官网标识下载页](https://www.fudan.edu.cn/fdbsxz/list.htm)。
+
 ## Publish
 
 Create a public GitHub repository named `wyss-520.github.io`, push this directory
