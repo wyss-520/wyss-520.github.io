@@ -51,24 +51,17 @@
           </div>
         </div>
 
-        <aside class="identity-panel" aria-label="复旦大学教育背景">
-          <img src="assets/images/fudan-university-logo.png" alt="复旦大学校徽及中英文校名" width="416" height="133">
-          <div class="identity-divider"></div>
-          <dl>
+        <figure class="portrait-panel">
+          <div class="portrait-placeholder" role="img" aria-label="个人照片预留位置">
             <div>
-              <dt>目前</dt>
-              <dd>博士研究生 · 2023—今</dd>
+              <span>个人照片</span>
+              <small>PERSONAL PHOTO</small>
             </div>
-            <div>
-              <dt>研究方向</dt>
-              <dd>医学影像中的人工智能</dd>
-            </div>
-            <div>
-              <dt>本科</dt>
-              <dd>复旦大学 · 2018—2023</dd>
-            </div>
-          </dl>
-        </aside>
+          </div>
+          <figcaption class="university-mark">
+            <img src="assets/images/fudan-university-logo.png" alt="复旦大学校徽及中英文校名" width="416" height="133">
+          </figcaption>
+        </figure>
       </div>
     </section>
 
@@ -123,15 +116,32 @@
               <p class="panel-label">Honors &amp; Awards</p>
               <h3 id="honors-title">荣誉与奖项</h3>
             </div>
-            <ol class="honors-list">
-              <li>上海市奖学金</li>
-              <li>复旦大学一等奖学金</li>
-              <li>复旦大学优秀学生</li>
-              <li>上海市优秀毕业生</li>
-              <li>全国大学生数学竞赛二等奖</li>
-              <li>华为智能基座奖学金</li>
-              <li>入选复旦大学卓越博士生计划</li>
-            </ol>
+            <div class="honors-groups">
+              <section class="honors-group" aria-labelledby="doctoral-honors">
+                <header>
+                  <h4 id="doctoral-honors">博士阶段</h4>
+                  <p>2023—今</p>
+                </header>
+                <ul class="honors-list honors-list-single">
+                  <li>入选复旦大学卓越博士生计划</li>
+                </ul>
+              </section>
+
+              <section class="honors-group" aria-labelledby="undergraduate-honors">
+                <header>
+                  <h4 id="undergraduate-honors">本科阶段</h4>
+                  <p>2018—2023</p>
+                </header>
+                <ul class="honors-list">
+                  <li>上海市奖学金</li>
+                  <li>复旦大学一等奖学金</li>
+                  <li>复旦大学优秀学生</li>
+                  <li>上海市优秀毕业生</li>
+                  <li>全国大学生数学竞赛二等奖</li>
+                  <li>华为智能基座奖学金</li>
+                </ul>
+              </section>
+            </div>
           </section>
         </div>
       </div>
